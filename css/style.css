@@ -106,8 +106,9 @@ img{
 }
 
 .header-box {
+  width: 100%;
+  max-width: 1000px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 30px;
 }
@@ -117,11 +118,13 @@ img{
   width: 100%;
   max-width: 35px;
   height: 41px;
-  margin-right: auto;
+  margin-right: 502px;
 }
 
 .header-list {
   display: flex;
+  margin: 0;
+  padding: 0;
   align-items: center;
   padding-top: 6px;
   padding-bottom: 12px;
@@ -147,6 +150,8 @@ img{
   display: block;
   width: 100%;
   max-width: 153px;
+  margin: 0;
+  padding: 0;
   margin-left: 40px;
   padding-top: 6px;
   padding-bottom: 12px;
