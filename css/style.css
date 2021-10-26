@@ -40,7 +40,6 @@ body{
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", "Arial", sans-serif;
-  background-color: #fff;
   color: #222;
 }
 
@@ -82,12 +81,6 @@ img{
   opacity: 0.6;
 }
 
-.hero-devider{
-  border: 0;
-  height: 1px;
-  background-color: #ddd;
-}
-
 .site-section-heading{
   margin: 0;
   padding: 0;
@@ -102,7 +95,7 @@ img{
 
 
 /* MAIN CONTENT */
-.main-content{
+.site-main{
   flex-grow: 1;
 }
 
@@ -218,6 +211,7 @@ img{
 .site-hero-info {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ddd;
 }
 
 .site-hero-content {
