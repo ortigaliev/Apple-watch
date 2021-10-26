@@ -133,6 +133,8 @@ img{
 }
 
 .header-list-item {
+  margin: 0;
+  padding: 0;
   font-size: 15px;
   line-height: 23px;
 }
@@ -159,7 +161,7 @@ img{
 .header-seach-input{
   margin-left: 40px;
   padding-top: 6px;
-  padding-bottom: 6px;
+  padding-bottom: 12px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-size: 15px;
